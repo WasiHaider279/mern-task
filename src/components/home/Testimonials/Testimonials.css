@@ -1,0 +1,33 @@
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-slide > div {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide > div:hover {
+  transform: scale(1.05) rotate(3deg);
+}
+
+/* Navigation button styles */
+.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Optional: if you want to remove default Swiper navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.testimonial-container:hover .testimonial-card {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+}
+
+.testimonial-container .testimonial-card:hover {
+  filter: blur(0);
+}
